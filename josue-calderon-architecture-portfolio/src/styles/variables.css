@@ -1,0 +1,20 @@
+:root, html, body {
+  /* Colors */
+  --primary-color: #19211b;
+  --secondary-color: #ffffff;
+  --accent-color: #9a8a78;
+  --text-color: #ffffff;
+  --light-gray: #e5e5e5;
+  --white: #ffffff;
+  --background-color: #19211b;
+
+  /* Typography */
+  --font-primary: 'Helvetica Neue', Arial, sans-serif;
+  --font-secondary: 'Times New Roman', serif;
+
+  /* Breakpoints */
+  --mobile: 576px;
+  --tablet: 768px;
+  --desktop: 1024px;
+  --large-desktop: 1200px;
+} 

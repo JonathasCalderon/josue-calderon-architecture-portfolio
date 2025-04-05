@@ -1,0 +1,28 @@
+.portfolio {
+  padding: 5rem 0;
+  background-color: var(--background-color);
+}
+
+.portfolio__title {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--white);
+}
+
+.portfolio__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .portfolio__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 
