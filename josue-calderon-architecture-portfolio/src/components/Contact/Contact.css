@@ -1,31 +1,70 @@
 .contact {
-  padding: 5rem 0;
+  padding: 6rem 2rem;
   background-color: var(--background-color);
+  color: var(--text-color);
 }
 
-.contact__title {
-  text-align: center;
-  margin-bottom: 3rem;
-  color: var(--white);
+.contact__container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .contact__content {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
-  color: var(--white);
+  gap: 4rem;
 }
 
 @media (min-width: 768px) {
   .contact__content {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
   }
 }
 
 .contact__info {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
+}
+
+.contact__title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.contact__subtitle {
+  font-size: 1.2rem;
+  color: var(--text-color-light);
+  margin-bottom: 2rem;
+}
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.contact__detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact__detail-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact__detail-value {
+  font-size: 1.1rem;
+  color: var(--text-color);
 }
 
 .contact__form {
@@ -41,21 +80,64 @@
 }
 
 .contact__form-label {
+  font-size: 0.9rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .contact__form-input,
 .contact__form-textarea {
-  padding: 0.8rem;
-  border: 1px solid var(--white);
+  padding: 1rem;
+  border: 1px solid rgba(154, 138, 120, 0.3);
   border-radius: 4px;
   font-family: var(--font-primary);
-  background-color: rgba(255, 255, 255, 0.1);
-  color: var(--white);
+  background-color: rgba(154, 138, 120, 0.05);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.contact__form-input:focus,
+.contact__form-textarea:focus {
+  outline: none;
+  border-color: rgba(154, 138, 120, 0.5);
+  background-color: rgba(154, 138, 120, 0.1);
 }
 
 .contact__form-textarea {
   min-height: 150px;
   resize: vertical;
+}
+
+.contact__form-button {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: 1px solid rgba(154, 138, 120, 0.3);
+  color: var(--text-color);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start;
+}
+
+.contact__form-button:hover {
+  background-color: rgba(154, 138, 120, 0.1);
+  border-color: rgba(154, 138, 120, 0.5);
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem 1rem;
+  }
+
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__subtitle {
+    font-size: 1rem;
+  }
 } 
