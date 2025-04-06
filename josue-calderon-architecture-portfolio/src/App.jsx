@@ -4,7 +4,7 @@ import './styles/main.css'
 // Components
 import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
-import Portfolio from './components/Portfolio/Portfolio'
+import Projects from './components/Projects/Projects'
 import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
 
@@ -18,7 +18,7 @@ function App() {
             <Route path="/" element={
               <>
                 <Hero />
-                <Portfolio />
+                <Projects />
                 <Services />
                 <Contact />
               </>

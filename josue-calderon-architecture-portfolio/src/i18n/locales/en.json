@@ -16,23 +16,55 @@
   "services": {
     "title": "Our Services",
     "subtitle": "What We Offer",
-    "residential": {
-      "title": "Residential Design",
-      "description": "Custom home designs that reflect your lifestyle and preferences."
+    "architecturalDesign": {
+      "title": "Architectural Design",
+      "description": "Creation of innovative and functional architectural designs that meet client needs."
     },
-    "commercial": {
-      "title": "Commercial Architecture",
-      "description": "Functional and aesthetic commercial spaces that meet business needs."
+    "bimModeling": {
+      "title": "BIM Modeling",
+      "description": "Development of building information models for efficient project management."
     },
-    "renovation": {
-      "title": "Renovation & Restoration",
-      "description": "Breathing new life into existing structures while preserving their character."
+    "rendering3d": {
+      "title": "3D Rendering",
+      "description": "Photorealistic visualizations that allow experiencing the project before construction."
+    },
+    "interiorDesign": {
+      "title": "Interior Design",
+      "description": "Creation of harmonious and functional interior spaces that reflect the client's personality."
+    },
+    "furnitureDesign": {
+      "title": "Furniture Design & Manufacturing",
+      "description": "Design and production of custom furniture that perfectly complements spaces."
+    },
+    "modeling3d": {
+      "title": "3D Modeling",
+      "description": "Creation of detailed three-dimensional models for project visualization and presentation."
+    },
+    "constructionSupervision": {
+      "title": "Construction Supervision",
+      "description": "Professional accompaniment throughout the construction process to ensure quality."
     }
   },
   "portfolio": {
     "title": "Our Work",
     "subtitle": "Featured Projects",
-    "viewProject": "View Project"
+    "viewProject": "View Project",
+    "categories": {
+      "residential": "Residential",
+      "commercial": "Commercial",
+      "public": "Public"
+    },
+    "status": {
+      "complete": "Complete",
+      "inProgress": "In Progress",
+      "upcoming": "Upcoming"
+    },
+    "projects": {
+      "modernResidence": "Modern Residence",
+      "urbanOffice": "Urban Office Complex",
+      "lakesideVilla": "Lakeside Villa",
+      "culturalCenter": "Cultural Center"
+    }
   },
   "contact": {
     "title": "Get in Touch",

@@ -16,23 +16,55 @@
   "services": {
     "title": "Nuestros Servicios",
     "subtitle": "Lo Que Ofrecemos",
-    "residential": {
-      "title": "Diseño Residencial",
-      "description": "Diseños de casas personalizados que reflejan tu estilo de vida y preferencias."
+    "architecturalDesign": {
+      "title": "Diseño Arquitectónico",
+      "description": "Creación de diseños arquitectónicos innovadores y funcionales que satisfacen las necesidades del cliente."
     },
-    "commercial": {
-      "title": "Arquitectura Comercial",
-      "description": "Espacios comerciales funcionales y estéticos que satisfacen las necesidades empresariales."
+    "bimModeling": {
+      "title": "Modelado BIM",
+      "description": "Desarrollo de modelos de información de construcción para una gestión eficiente del proyecto."
     },
-    "renovation": {
-      "title": "Renovación y Restauración",
-      "description": "Dando nueva vida a estructuras existentes mientras se preserva su carácter."
+    "rendering3d": {
+      "title": "Renderizado 3D",
+      "description": "Visualizaciones fotorrealistas que permiten experimentar el proyecto antes de su construcción."
+    },
+    "interiorDesign": {
+      "title": "Diseño de Interiores",
+      "description": "Creación de espacios interiores armoniosos y funcionales que reflejan la personalidad del cliente."
+    },
+    "furnitureDesign": {
+      "title": "Diseño y Fabricación de Muebles",
+      "description": "Diseño y producción de muebles personalizados que complementan perfectamente los espacios."
+    },
+    "modeling3d": {
+      "title": "Modelado 3D",
+      "description": "Creación de modelos tridimensionales detallados para visualización y presentación de proyectos."
+    },
+    "constructionSupervision": {
+      "title": "Supervisión de Obra",
+      "description": "Acompañamiento profesional durante todo el proceso constructivo para garantizar la calidad."
     }
   },
   "portfolio": {
     "title": "Nuestro Trabajo",
     "subtitle": "Proyectos Destacados",
-    "viewProject": "Ver Proyecto"
+    "viewProject": "Ver Proyecto",
+    "categories": {
+      "residential": "Residencial",
+      "commercial": "Comercial",
+      "public": "Público"
+    },
+    "status": {
+      "complete": "Completado",
+      "inProgress": "En Progreso",
+      "upcoming": "Próximamente"
+    },
+    "projects": {
+      "modernResidence": "Residencia Moderna",
+      "urbanOffice": "Complejo de Oficinas Urbanas",
+      "lakesideVilla": "Villa junto al Lago",
+      "culturalCenter": "Centro Cultural"
+    }
   },
   "contact": {
     "title": "Ponte en Contacto",
