@@ -1,4 +1,5 @@
 @import './variables.css';
+@import './custom-elements.css';
 
 /* Reset and base styles */
 * {

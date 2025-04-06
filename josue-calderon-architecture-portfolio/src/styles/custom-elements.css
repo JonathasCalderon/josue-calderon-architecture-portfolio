@@ -1,0 +1,51 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(154, 138, 120, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(154, 138, 120, 0.3);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(154, 138, 120, 0.5);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(154, 138, 120, 0.3) rgba(154, 138, 120, 0.05);
+}
+
+/* Custom Cursor */
+body {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%239a8a78' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M12 5v14'/%3E%3C/svg%3E") 12 12, auto;
+}
+
+/* Custom cursor for interactive elements */
+a, button, input, textarea, [role="button"], .services__scroll-button, .contact__form-button {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%239a8a78' stroke='%239a8a78' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14'/%3E%3Cpath d='M12 5v14'/%3E%3C/svg%3E") 12 12, pointer;
+}
+
+/* Custom cursor for text selection */
+::selection {
+  background-color: rgba(154, 138, 120, 0.2);
+  color: var(--text-color);
+}
+
+/* Custom cursor for text input areas */
+input, textarea {
+  cursor: text;
+}
+
+/* Custom cursor for draggable elements */
+[draggable="true"] {
+  cursor: move;
+} 

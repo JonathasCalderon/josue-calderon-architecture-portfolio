@@ -7,11 +7,13 @@ import Hero from './components/Hero/Hero'
 import Projects from './components/Projects/Projects'
 import Services from './components/Services/Services'
 import Contact from './components/Contact/Contact'
+import CustomCursor from './components/CustomCursor/CustomCursor'
 
 function App() {
   return (
     <Router>
       <div className="app" style={{ backgroundColor: '#19211b', minHeight: '100vh' }}>
+        <CustomCursor />
         <Navbar />
         <main>
           <Routes>
