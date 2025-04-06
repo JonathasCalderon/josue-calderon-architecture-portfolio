@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Josue Calderon",
+    "subtitle": "Portafolio de Arquitectura",
+    "description": "Creando espacios que inspiran, perduran y mejoran la forma en que vivimos.",
+    "cta": "Ver Portafolio"
+  },
+  "navbar": {
+    "logo": "JC",
+    "home": "Inicio",
+    "portfolio": "Portafolio",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "language": "Idioma"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Lo Que Ofrecemos",
+    "residential": {
+      "title": "Diseño Residencial",
+      "description": "Diseños de casas personalizados que reflejan tu estilo de vida y preferencias."
+    },
+    "commercial": {
+      "title": "Arquitectura Comercial",
+      "description": "Espacios comerciales funcionales y estéticos que satisfacen las necesidades empresariales."
+    },
+    "renovation": {
+      "title": "Renovación y Restauración",
+      "description": "Dando nueva vida a estructuras existentes mientras se preserva su carácter."
+    }
+  },
+  "portfolio": {
+    "title": "Nuestro Trabajo",
+    "subtitle": "Proyectos Destacados",
+    "viewProject": "Ver Proyecto"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Hablemos de tu proyecto",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+} 

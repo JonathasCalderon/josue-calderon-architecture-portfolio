@@ -22,7 +22,7 @@
 }
 
 .navbar__logo {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-size: 1.5rem;
   color: var(--white);
   text-decoration: none;
@@ -31,6 +31,7 @@
 
 .navbar__links {
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -53,11 +54,9 @@
 }
 
 .navbar__link {
-  color: var(--white);
+  color: var(--text-color);
   text-decoration: none;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
@@ -104,4 +103,19 @@
 
 .navbar__mobile-toggle--open span:last-child {
   transform: translateY(-9px) rotate(-90deg);
+}
+
+.navbar__language {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__language:hover {
+  color: var(--accent-color);
 } 
